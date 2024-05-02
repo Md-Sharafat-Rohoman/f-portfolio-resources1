@@ -1,4 +1,24 @@
-h1{
-    font-size: large;
-    color: green;
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* nav related style */
+.text-primary{
+    color: #FD6E0A;
+}
+nav {
+    display: flex;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
 }
