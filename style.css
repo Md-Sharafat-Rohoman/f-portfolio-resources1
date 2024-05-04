@@ -2,23 +2,263 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* nav related style */
-.text-primary{
-    color: #FD6E0A;
+.headers {
+    background-color: #FFF8F3;
+    background-image: url("images/developer.png"), url("images/header_bg.png");
+    background-position: top left, right bottom;
+    background-repeat: no-repeat;
 }
-nav {
-    display: flex;
-}
-.nav-title{
+
+/* nav title style */
+nav h1 {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
 
-nav ul{
+nav h1 span {
+    color: #FD6E0A;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #575252;
+    font-size: 20px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav button {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 20px;
+}
+
+.hireMe {
+    color: white;
+}
+
+.hardy {
+    color: #181818;
+    font-size: 65px;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+
+.short {
+    color: #757575;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.frame1 {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: wheat;
+    padding: 8px 13px;
+    font-weight: 700;
+}
+
+.frame2 {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    font-weight: 700;
+    padding: 8px 12px;
+    margin-left: 10px;
+
+}
+
+.navSection {
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.twoButton {
+    display: flex;
+    align-items: center;
+
+}
+
+.navLast {
     display: flex;
 }
-nav li{
-    list-style: none;
-    margin-right: 20px;
+
+/* main section related style */
+/* first main section */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    width: 1000px;
+    height: 350px;
+    padding: 50px;
+    text-align: center;
+    margin: 100px auto;
+    padding: auto 0px;
+}
+
+.legends {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.first {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.designer {
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+.default {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px;
+}
+
+/* second main */
+.clients {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.builds {
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.secondDiv {
+    margin: 100px auto;
+}
+
+/* third section main */
+.firstImage {
+    width: 200px;
+    height: 250px;
+    flex-shrink: 0;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    text-align: left;
+}
+
+.vanilla {
+    color: var(--Dark-01, #181818);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill {
+    color: var(--Dark-03, #757575);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.mainImages {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px auto;
+}
+
+/* fourth section style */
+.summary {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 100px auto;
+}
+
+.education {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.master {
+    width: 500px;
+    height: 250px;
+    /* background: #FFF; */
+    background: #FFF8F3;
+    text-align: left;
+}
+
+.computer {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.harvard {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.list {
+    color: #757575;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.horizantal {
+    width: 500px;
+    height: 1px;
+    background: #D1D1D1;
+    margin: 40px auto;
+}
+.finalEducation{
+    text-align: left;
+}
+.overThrough{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
